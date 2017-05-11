@@ -2,79 +2,95 @@
   SECTIONS
 ============================================================ */
 section.module:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 section.module h2 {
-  margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
-  font-size: 30px;
+    margin-bottom: 40px;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
 }
+
 section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
 }
+
 section.module p:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 section.module.content {
-  padding: 40px 0;
+    padding: 40px 0;
 }
+
 section.module.parallax {
-  height: 600px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 section.module.parallax h1 {
-  color: rgba(255, 255, 255, 1);
-  font-size: 20px;
-  line-height: 600px;
-/*  text-shadow: 0 0 3px #FF0000; */
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-   text-shadow: 0 0 40px rgba(0, 0, 0, 5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    line-height: 600px;
+    font-family: 'Pacifico';
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 40px rgba(0, 0, 0, 5);
 }
+
 section.module.parallax-1 {
-  background-image: url("../img/s0.jpg");
+    background-image: url("../img/s0.jpg");
 }
+
 section.module.parallax-2 {
-  background-image: url("../img/s1.jpg");
+    background-image: url("../img/s1.jpg");
 }
+
 section.module.parallax-3 {
-  background-image: url("../img/s4.jpeg");
+    background-image: url("../img/s10.jpg");
 }
+
 section.module.parallax-4 {
-  background-image: url("../img/s5.jpg");
+    background-image: url("../img/s5.jpg");
 }
+
 section.module.parallax-5 {
-  background-image: url("../img/s6.jpg");
+    background-image: url("../img/s6.jpg");
 }
+
 section.module.parallax-6 {
-  background-image: url("../img/s7.jpg");
+    background-image: url("../img/s8.jpg");
 }
+
 section.module.parallax-7 {
-  background-image: url("../img/s9.jpg");
+    background-image: url("../img/s9.jpg");
 }
 
 @media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h1 {
-    font-size: 4em;
-  }
+    section.module h2 {
+        font-size: 42px;
+    }
+
+    section.module p {
+        font-size: 20px;
+    }
+
+    section.module.parallax h1 {
+        font-size: 3.15em;
+    }
 }
+
 @media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 6em;
-  }
+    section.module.parallax h1 {
+        font-size: 5.1em;
+    }
 }
