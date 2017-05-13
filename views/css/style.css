@@ -48,15 +48,15 @@ section.module.parallax h1 {
 }
 
 section.module.parallax-1 {
-    background-image: url("../img/s0.jpg");
+    background-image: url("/views/img/s0.jpg");
 }
 
 section.module.parallax-2 {
-    background-image: url("../img/s1.jpg");
+    background-image: url("/views/img/s1.jpg");
 }
 
 section.module.parallax-3 {
-    background-image: url("../img/s10.jpg");
+    background-image: url("/views/img/s10.jpg");
 }
 
 section.module.parallax-4 {
